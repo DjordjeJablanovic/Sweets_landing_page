@@ -8,7 +8,7 @@ import gal7 from './assets/gal7.jpg'
 import gal8 from './assets/gal8.jpg'
 import gal9 from './assets/gal9.jpg'
 import gal10 from './assets/gal10.jpg'
-import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import {FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 
 export const galleryData ={
