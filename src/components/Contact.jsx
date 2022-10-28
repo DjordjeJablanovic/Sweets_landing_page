@@ -16,14 +16,14 @@ const Contact = () => {
               {/* title */}
 
               <motion.div
-            variants={fadeIn('right')}
-            initial='hidden'
-            whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}
-            className='flex flex-col lg:flex-row flex-1'
-          >
-                <h2 className='h2 max-w-[490px] text-[40px] xl:text-[85px] text-dark uppercase font-primary leading-none mb-[38px]'>{title}</h2>
-              </motion.div>
+                variants={fadeIn('right')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.4 }}
+                className='flex-1'
+                >
+                  <h2 className='h2 max-w-[490px] text-[40px] xl:text-[85px] text-dark uppercase font-primary leading-none mb-[38px]'>{title}</h2>
+                </motion.div>
               {/* info items */}
               <div className='flex flex-col xl:flex-row gap-x-5 gap-y-16 xl:gap-y-0'>
                 {info.map((item, index) => {
@@ -71,13 +71,15 @@ const Contact = () => {
               </div>
            
             {/* form */}
+
             <motion.div
             variants={fadeIn('left')}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}
-            className='flex flex-col lg:flex-row flex-1'
+            viewport={{ once: false, amount: 0.4 }}
+            className='flex-1 xl:pl-[40px] flex justify-center items-center'
           >
+              
                 <form className='flex flex-col gap-y-10 w-full'>
                   <input
                     className='border-b border-dark placeholder:text-[#555] italic tracking-[0.06em] outline-none pb-4'
@@ -98,7 +100,9 @@ const Contact = () => {
                     {form.btnText}
                   </button>
                 </form>
+              
               </motion.div>
+
           </div>
         </div>
       </section>
