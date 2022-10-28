@@ -7,7 +7,7 @@ const OurStory = () => {
 
     const { title, subtitle1, subtitle2, btnText} = aboutData;
     return (
-      <section className='lg:py-16 xl:pb-[160px] px-2'>
+      <section className='lg:py-16 xl:pb-[160px] px-2 h-[100vh]'>
         <div className='container mx-auto'>
           <div className='flex flex-col lg:flex-row gap-x-[70px] items-center overflow-hidden'>
             {/* numbers */}
