@@ -18,7 +18,7 @@ const OurStory = () => {
             viewport={{ once: false, amount: 0.7 }}
             className='flex flex-col lg:flex-row flex-1'
           >
-              <div className='text-[260px] md:text-[360px] xl:text-[720px] leading-none font-tertiary lg:-tracking-[0.055em] bg-aboutus bg-no-repeat bg-right bg-clip-text text-transparent'>
+              <div className='text-[320px] md:text-[360px] xl:text-[720px] leading-none font-tertiary lg:-tracking-[0.055em] bg-aboutus bg-no-repeat bg-right bg-clip-text text-transparent'>
                 77
               </div>
               </motion.div>
