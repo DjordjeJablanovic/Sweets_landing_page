@@ -1,7 +1,4 @@
 import React from 'react'
-import { Stack } from '@mui/system'
-import { fadeIn } from '../variantls'
-import { motion } from 'framer-motion';
 import {aboutData} from '../data'
 
 const OurStory = () => {
