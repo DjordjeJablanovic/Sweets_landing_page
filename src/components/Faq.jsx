@@ -20,7 +20,7 @@ const Faq =() => {
 
     <Stack className='w-full mx-auto px-8 py-20 md:px-[110px] gabg lg:px-[240px]'>
       <Typography  variant="h4" component="h2">
-        <div className='font-secondary font-bold italic text-orange-400 text-[40px]'>
+        <div className='font-secondary font-bold italic text-orange-400 text-[40px] mb-4'>
         Frequently Asked Questions:
         </div>
       </Typography>
